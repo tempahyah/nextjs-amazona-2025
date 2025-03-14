@@ -4,3 +4,4 @@ export const APP_SLOGAN =
 export const APP_DESCRIPTION =
   process.env.NEXT_PUBLIC_APP_DESCRIPTION ||
   'Next Amazona 2025 is a full-stack e-commerce application built with Next.js, TypeScript, Tailwind CSS, and MongoDB.'
+export const PAGE_SIZE = Number(process.env.PAGE_S || 9)
