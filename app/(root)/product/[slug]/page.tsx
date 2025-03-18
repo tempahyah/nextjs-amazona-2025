@@ -1,3 +1,4 @@
+import BrowsingHistoryList from '@/components/shared/browsing-history-list'
 import ProductGallery from '@/components/shared/product/product-gallery'
 import ProductPrice from '@/components/shared/product/product-price'
 import ProductSlider from '@/components/shared/product/product-slider'
@@ -116,6 +117,10 @@ export default async function ProductDetails(props: {
           products={relatedProducts.data}
           title={`Best Sellers in ${product.category}`}
         />
+      </section>
+
+      <section>
+        <BrowsingHistoryList className='mt-10' />
       </section>
     </div>
   )
